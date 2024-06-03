@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('../src/background-login.png');
+    background-size: cover; /* Garante que a imagem de fundo cubra todo o elemento */
+    background-position: center;
+    background-color: #130032;
+}
+
+.container {
+    text-align: center;
+}
+
+.form-container {
+    display: none;
+}
+
+.form-container.active {
+    display: block;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: "Chakra Petch", sans-serif;
+    font-style: italic;
+    font-weight: 800;
+    color: #CDBAD9 !important;
+    background-color: #390E54;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #9377A6;
+}
+
+form {
+    background: #5D3D73;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    color: #CDBAD9;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 25px;
+}
+
+input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    font-family: "Bebas Neue", sans-serif;
+    background-color: #CDBAD9;
+    border-radius: 5px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: "Chakra Petch", sans-serif;
+    color: #CDBAD9 !important;
+    position: fixed; /* Fixa o footer na parte inferior */
+    bottom: 0; /* Posiciona na parte inferior */
+    width: 100%; /* Garante que o footer ocupe toda a largura */
+    background-color: rgba(0, 0, 0, 0.5); /* Adiciona um fundo semitransparente opcional */
+    padding: 10px 0; /* Espaçamento interno */
+}

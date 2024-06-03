@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>NERDOLIX - adicionar wiki</title>
+        <link rel="stylesheet" href="../css/new_content.css">
+        <script src="../js/new_content.js" defer></script>
+    </head>
+    <body>
+        <nav class="nav">
+            <a href="./index.html" class="inicio">início</a>
+            <label for="create-login" class="create-login">
+                <a href="./login.html" class="login">login</a>
+                <a href="./login.html" class="create">criar conta</a>
+            </label>
+        </nav>
+        <main class="wikis">
+            <h1>cadastrar novo conteúdo</h1>
+            <h2>*** conteúdo sujeito a avaliação dos moderadores ***</h2>
+            <form method="post" id="newWiki">
+                <div class="nome">
+                    <input type="text" id="nome" placeholder="nome do filme/série/anime" required>
+                </div>
+                <div class="sinopse">
+                    <input type="text" id="sinopse" placeholder="sinopse" required>
+                </div>
+                <div class="imagem">
+                    <input type="text" id="imageUrl" placeholder="URL da capa do filme/série/anime" required>
+                </div>
+                <div class="valor">
+                    <input type="text" id="valor" placeholder="valor de venda na internet" required>
+                </div>
+                <div class="button">
+                    <button type="button" id="send">registrar</button>
+                </div>
+            </form>
+        </main>
+
+        <footer class="credits">
+            &copy; Ana Julia Santos Afonso | Gabriella Parente Shibata - 
+            NERDOLIX
+        </footer>
+    </body>
+</html>

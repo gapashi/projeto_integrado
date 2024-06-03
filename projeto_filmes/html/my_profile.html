@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NERDOLIX - meu perfil</title>
+    <link rel="stylesheet" href="../css/my_profile.css">
+    <script src="../js/my_profile.js" defer></script>
+</head>
+
+<body>
+    <nav class="nav">
+        <form action="#" class="search">
+            <input type="text" placeholder="pesquisar🔎" name="search">
+        </form>
+        <label for="profile" class="profile">
+            <img src="../src/profile-img-myprofile.png" alt="profile-img" class="profile-img">
+            <ul class="menu-profile">
+                <li><a href="./index.html">início</a></li>
+                <li><a href="./new_content.html">cadastrar wiki</a></li>
+            </ul>
+        </label>
+    </nav>
+
+    <div id="wiki-page">
+        <div class="title">
+            <p>bem-vindo(a) a wikipedia dos filmes geek/nerd!</p>
+            <p>digite na barra de pesquisa o nome do filme que deseja encontrar</p>
+        </div>
+        <div class="cadastro-container">
+            <p>caso o filme não esteja aqui, você pode</p>
+            <a href="./new_content.html" class="btn-cadastrar">cadastrar aqui</a>
+        </div>
+        <div class="conteudo">
+            <div class="filmes" id="cardFilmes">
+                <!-- Os cards de filmes serão inseridos aqui -->
+            </div>
+        </div>
+    </div>
+
+    <footer class="credits">
+        &copy; Ana Julia Santos Afonso | Gabriella Parente Shibata - 
+        NERDOLIX
+    </footer>
+</body>
+</html>

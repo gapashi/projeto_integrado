@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NERDOLIX - fazer login</title>
+    <link rel="stylesheet" href="../css/login.css">
+    <script src="../js/login.js" defer></script>
+</head>
+
+<body>
+
+    <div class="container">
+        <button id="loginButton">&larr; login</button>
+        <button id="signupButton">cadastro &rarr;</button>
+
+        <div id="loginForm" class="form-container">
+            <form>
+                <h2>login</h2>
+                <input type="email" placeholder="Email" id="loginEmail" required>
+                <input type="password" placeholder="Senha" id="loginPassword" required>
+                <button type="submit">entrar</button>
+                <p id="loginError"></p>
+            </form>
+        </div>
+
+        <div id="signupForm" class="form-container">
+            <form>
+                <h2>cadastro</h2>
+                <input type="text" placeholder="Nome" required>
+                <input type="date" placeholder="Data de Nascimento" required>
+                <input type="email" placeholder="Email" required>
+                <input type="password" placeholder="Senha" required>
+                <button type="submit">cadastrar</button>
+            </form>
+        </div>
+    </div>
+
+    <footer class="credits">
+        &copy; Ana Julia Santos Afonso | Gabriella Parente Shibata - 
+        NERDOLIX
+    </footer>
+    
+</body>
+
+</html>
